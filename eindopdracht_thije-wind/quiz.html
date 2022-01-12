@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel= "stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src='images/logo.png' alt='logo verkeersbordinfo.nl'/>
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='informatie.html'>Verkeersborden</a></li>
+                <li><a href='over-ons.html'>Over ons</a></li>
+                <li><a href='quiz.html'>Test je kennis</a></li>
+            </ul>
+        </nav>
+        <h2>Test hier je kennis over de Nederlandse verkeersborden!</h2>
+    </header>
+    
+    <main>
+    <form action='submit' method=get >
+        <fieldset >
+            <legend><img src='images/verplichterijrichting1.jpg' alt='Rijrichting rechts'>Wat betekend dit bord?</legend>
+            <input  id='a'
+                    name='betekenis'
+                    type='radio'
+                    value='A' />
+            <label for='a' >A: Gebod voor alle bestuurders het bord voorbij te gaan aan de zijde die de pijl aangeeft. </label>
+            <input  id='b'
+                    name='betekenis'
+                    type='radio'
+                    value='B' />
+            <label for='b' >B:Gebod tot het volgen van één van de rijrichtingen die op het bord zijn aangegeven. Er zijn vergelijkbare borden voor andere rijrichtingen.</label>
+            <input  id='c'
+                    name='betekenis'
+                    type='radio'
+                    value='C' />
+            <label for='c' >C:Gebod tot het volgen van de rijrichting die op het bord is aangegeven. Er zijn vergelijkbare borden voor andere rijrichtingen.</label>
+        </fieldset>
+
+        <fieldset >
+            <legend>Welk bord past bij deze tekst? Gebod tot het volgen van de rijrichting die op het bord is aangegeven.Er zijn vergelijkbare borden voor andere rijrichtingen.</legend>
+            <input  id='bord1'  
+                    name='bord'
+                    type='radio'
+                    value='A'/>
+            <label for='bord1' ><img src='images/verplichterijrichting2.jpg' alt='Rijrichting rechtdoor'>A</label>
+
+            <input  id='bord2'  
+                    name='bord'
+                    type='radio'
+                    value='B'/>
+            <label for='bord2' ><img src='images/verplichterijrichting1.jpg' alt='Rijrichting rechts'>B</label>
+
+            <input  id='bord3'  
+                    name='bord'
+                    type='radio'
+                    value='C'/>
+            <label for='bord3' ><img src='images/verplichterijrichting3.jpg' alt='Rijrichting rechts of links'>C</label>
+        </fieldset>
+
+        <fieldset >
+            <legend>Waar kan je voorrangsborden goed aan herkennen?</legend>
+            <input  id='voorranga'
+                    name='voorrang'
+                    type='radio'
+                    value='A' />
+            <label for='voorranga' >A: De kleur</label>
+            <input  id='voorrangb'
+                    name='voorrang'
+                    type='radio'
+                    value='B' />
+            <label for='voorrangb' >B: Hun unieke vorm </label>
+            <input  id='voorrangc'
+                    name='voorrang'
+                    type='radio'
+                    value='C' />
+            <label for='voorrangc' >C: De achterkant van het bord.</label>
+        </fieldset>
+
+        <fieldset >
+            <legend><img src='images/voorrang4.jpg' alt='Einde voorrangsweg'>Welke uitleg past bij dit bord?</legend>
+            <input  id='betekenisa'
+                    name='betekenis'
+                    type='radio'
+                    value='A' />
+            <label for='betekenisa' >A: Einde voorrangsweg</label>
+            <input  id='betekenisb'
+                    name='betekenis'
+                    type='radio'
+                    value='B' />
+            <label for='betekenisb' >B: Begin voorrangsweg.</label>
+            <input  id='betekenisc'
+                    name='betekenis'
+                    type='radio'
+                    value='C' />
+            <label for='betekenisc' >C: Voorrang van rechts.</label>
+        </fieldset>
+
+    <button type='submit' value='submit'>Submit</button>
+    </form>
+
+    </main>
+
+    <footer>
+        <p>Bronnen: <a href='https://www.anwb.nl/vakantie/nederland/informatie/verkeersborden'>ANWB</a> </p>
+    </footer>
+
+</body>
+
+</html>
